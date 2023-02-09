@@ -12,7 +12,7 @@ class SearchBar extends StatelessWidget {
 
     return Padding(
       padding: EdgeInsets.only(
-          left: screenHeight * 0.05, right: screenHeight * 0.05, top: screenHeight * 0.05),
+          left: screenHeight * 0.02, right: screenHeight * 0.02, top: screenHeight * 0.05),
       child: Material(
         elevation: 2,
         borderRadius: BorderRadius.circular(10),
