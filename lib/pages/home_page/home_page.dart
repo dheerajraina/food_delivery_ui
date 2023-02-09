@@ -26,6 +26,7 @@ class HomePage extends StatelessWidget {
           ),
           const TopOutlets(),
           RedeemPoints(),
+          Options(),
         ],
       ),
     ));

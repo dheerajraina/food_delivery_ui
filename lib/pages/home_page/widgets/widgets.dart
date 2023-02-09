@@ -6,3 +6,4 @@ export 'types.dart';
 export 'redeem.dart';
 export 'top_registered_outlets.dart';
 export 'redeem_points.dart';
+export 'options.dart';
