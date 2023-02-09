@@ -9,3 +9,4 @@ export 'redeem_points.dart';
 export 'options.dart';
 export 'top_redeem_brands.dart';
 export 'options2.dart';
+export '../../../bottom_nav_bar.dart';
