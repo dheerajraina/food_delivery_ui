@@ -5,4 +5,5 @@ class Pallete {
   Color purple =Color.fromARGB(255, 80, 39, 176);
   Color white =Color.fromARGB(255, 255, 255, 255);
   Color grey =Color.fromARGB(255, 151, 148, 148);
+  Color green =Color.fromARGB(255, 96, 148, 97);
 }
