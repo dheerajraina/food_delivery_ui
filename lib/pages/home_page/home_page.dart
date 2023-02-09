@@ -12,14 +12,17 @@ class HomePage extends StatelessWidget {
     var screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
-        body: Wrap(
-      children: [
-        TopBar(title: title),
-        const SearchLocation(),
-        Types(),
-        const SearchBar(),
-        const Collections()
-      ],
-    ));
+        body: SingleChildScrollView(
+          child: Column(
+              children: [
+          TopBar(title: title),
+          const SearchLocation(),
+          Types(),
+          const SearchBar(),
+          const Collections(),
+          Redeem(),
+              ],
+            ),
+        ));
   }
 }
