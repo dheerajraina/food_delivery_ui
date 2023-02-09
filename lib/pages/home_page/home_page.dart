@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-  var screenWidth = MediaQuery.of(context).size.width;
+    var screenWidth = MediaQuery.of(context).size.width;
     var screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
@@ -16,6 +16,7 @@ class HomePage extends StatelessWidget {
       children: [
         TopBar(title: title),
         const SearchLocation(),
+        Types(),
         const SearchBar(),
         const Collections()
       ],
