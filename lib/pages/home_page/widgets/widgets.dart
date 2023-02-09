@@ -8,3 +8,4 @@ export 'top_registered_outlets.dart';
 export 'redeem_points.dart';
 export 'options.dart';
 export 'top_redeem_brands.dart';
+export 'options2.dart';

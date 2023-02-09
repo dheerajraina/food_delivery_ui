@@ -25,10 +25,13 @@ class HomePage extends StatelessWidget {
             height: screenHeight * 0.1,
           ),
           const TopOutlets(),
+          Options2(),
+          SizedBox(
+            height: screenHeight * 0.05,
+          ),
           RedeemPoints(),
           Options(),
           TopRedeemBrands(),
-
         ],
       ),
     ));
