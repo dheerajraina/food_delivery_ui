@@ -4,3 +4,4 @@ export 'search_bar.dart';
 export 'collections.dart';
 export 'types.dart';
 export 'redeem.dart';
+export 'top_registered_outlets.dart';

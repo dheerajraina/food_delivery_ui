@@ -13,16 +13,20 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
         body: SingleChildScrollView(
-          child: Column(
-              children: [
+      child: Column(
+        children: [
           TopBar(title: title),
           const SearchLocation(),
           Types(),
           const SearchBar(),
           const Collections(),
-          Redeem(),
-              ],
-            ),
-        ));
+          const Redeem(),
+          SizedBox(height: screenHeight*0.1,),
+          const TopOutlets(),
+
+
+        ],
+      ),
+    ));
   }
 }
