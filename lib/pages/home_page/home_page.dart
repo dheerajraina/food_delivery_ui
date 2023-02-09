@@ -21,10 +21,11 @@ class HomePage extends StatelessWidget {
           const SearchBar(),
           const Collections(),
           const Redeem(),
-          SizedBox(height: screenHeight*0.1,),
+          SizedBox(
+            height: screenHeight * 0.1,
+          ),
           const TopOutlets(),
-
-
+          RedeemPoints(),
         ],
       ),
     ));
